@@ -1,5 +1,7 @@
 # EmbarkStudios/cargo-deny-action
 
+❌ GitHub Action for cargo-deny 🦀
+
 Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action).
 
 ## Versions

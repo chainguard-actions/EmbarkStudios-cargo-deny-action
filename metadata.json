@@ -1,5 +1,6 @@
 {
   "owner": "EmbarkStudios",
   "name": "cargo-deny-action",
-  "visibility": ""
+  "visibility": "internal",
+  "description": "❌ GitHub Action for cargo-deny 🦀"
 }
