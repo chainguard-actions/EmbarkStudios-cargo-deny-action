@@ -1,6 +1,12 @@
 # EmbarkStudios/cargo-deny-action
 
-Hardened GitHub Action by [Chainguard](https://www.chainguard.dev).
+Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action).
+
+## Versions
+
+| Version | Tag | Upstream commit |
+|---------|-----|-----------------|
+| v2.0.15 | [`v2.0.15`](https://github.com/chainguard-actions/cargo-deny-action/tree/v2.0.15) | — |
 
 ## Privacy
 
