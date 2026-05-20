@@ -1,7 +1,0 @@
-{
-  "owner": "EmbarkStudios",
-  "name": "cargo-deny-action",
-  "visibility": "internal",
-  "description": "❌ GitHub Action for cargo-deny 🦀",
-  "block_publish": false
-}
