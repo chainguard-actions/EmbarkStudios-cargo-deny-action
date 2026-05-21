@@ -8,7 +8,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
-| v2.0.15 | [`v2.0.15`](https://github.com/chainguard-actions/cargo-deny-action/tree/v2.0.15) | — |
+| v2.0.15 | [`v2.0.15`](https://github.com/chainguard-actions/EmbarkStudios--cargo-deny-action/tree/v2.0.15) | — |
 
 ## Privacy
 
