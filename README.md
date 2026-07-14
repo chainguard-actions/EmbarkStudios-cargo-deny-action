@@ -10,6 +10,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 |---------|-----|-----------------|
 | v2.0.15 | [`v2.0.15`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.0.15) | [`3fd3802`](https://github.com/EmbarkStudios/cargo-deny-action/commit/3fd3802e88374d3fe9159b834c7714ec57d6c979) |
 | v2.0.20 | [`v2.0.20`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.0.20) | [`bb137d7`](https://github.com/EmbarkStudios/cargo-deny-action/commit/bb137d7af7e4fb67e5f82a49c4fce4fad40782fe) |
+| v2.1.1 | [`v2.1.1`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.1.1) | [`3c63498`](https://github.com/EmbarkStudios/cargo-deny-action/commit/3c6349835b2b7b196a839186cb8b78e02f7b5f25) |
 
 ## Privacy
 
