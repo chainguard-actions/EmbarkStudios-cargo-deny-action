@@ -1,0 +1,31 @@
+name: Test banned crate causes failure
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Run cargo-deny bans check (should fail due to banned crate)
+        id: action
+        uses: .
+        with:
+          command: check
+          arguments: ""
+          command-arguments: "bans"
+          manifest-path: ./tests/fixtures/banned-crate/Cargo.toml
+          log-level: warn
+        continue-on-error: true
+
+      - name: Assert action failed as expected
+        env:
+          OUTCOME: ${{ steps.action.outcome }}
+        run: |
+          echo "outcome: $OUTCOME"
+          if [ "$OUTCOME" != "failure" ]; then
+            echo "FAIL: expected cargo-deny to fail when a banned crate is present, but got outcome: $OUTCOME"
+            exit 1
+          fi
+          echo "PASS: cargo-deny correctly failed when banned crate was detected"

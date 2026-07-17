@@ -1,4 +1,4 @@
-name: Test log-level input
+name: Test full check with all features
 on:
   workflow_dispatch:
 
@@ -8,17 +8,17 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: Run cargo-deny with debug log level
+      - name: Run cargo-deny full check (all checks)
         id: action
         uses: .
         with:
           command: check
           arguments: ""
-          command-arguments: "licenses"
+          command-arguments: "all"
           manifest-path: ./tests/fixtures/simple-crate/Cargo.toml
-          log-level: debug
+          log-level: warn
 
-      - name: Assert action succeeded with debug log level
+      - name: Assert action succeeded
         run: |
-          echo "cargo-deny completed successfully with debug log level"
+          echo "cargo-deny full check completed successfully"
           echo "PASS"

@@ -1,4 +1,4 @@
-name: Test cargo-deny list command
+name: Test list command
 on:
   workflow_dispatch:
 
@@ -8,19 +8,17 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: Copy fixture to workspace
-        run: |
-          cp -r "$GITHUB_WORKSPACE/tests/fixtures/basic" "$GITHUB_WORKSPACE/test-project"
-
-      - id: action
+      - name: Run cargo-deny list command
+        id: action
         uses: .
         with:
           command: list
           arguments: ""
           command-arguments: ""
-          manifest-path: "./test-project/Cargo.toml"
-          log-level: "warn"
+          manifest-path: ./tests/fixtures/simple-crate/Cargo.toml
+          log-level: warn
 
       - name: Assert action succeeded
         run: |
-          echo "PASS: cargo-deny list completed successfully"
+          echo "cargo-deny list command completed successfully"
+          echo "PASS"

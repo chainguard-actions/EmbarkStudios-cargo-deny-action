@@ -1,0 +1,13 @@
+[package]
+name = "test-crate"
+version = "0.1.0"
+authors = ["Test <test@example.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+lazy_static = "1.4.0"

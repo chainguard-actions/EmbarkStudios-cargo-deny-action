@@ -1,0 +1,26 @@
+[bans]
+multiple-versions = "warn"
+deny = [
+    { name = "lazy_static" },
+]
+
+[licenses]
+confidence-threshold = 0.8
+allow = [
+    "Apache-2.0",
+    "Apache-2.0 WITH LLVM-exception",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "MIT",
+    "MPL-2.0",
+    "Unicode-DFS-2016",
+    "Zlib",
+]
+
+[advisories]
+ignore = []
+
+[sources]
+unknown-registry = "warn"
+unknown-git = "warn"
