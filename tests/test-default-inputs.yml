@@ -1,0 +1,21 @@
+name: Test cargo-deny with default inputs
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Run cargo-deny with default inputs on test crate
+        id: action
+        uses: .
+        with:
+          # Use the test crate which has a deny.toml and known-good dependencies
+          manifest-path: ./test/Cargo.toml
+          command: check
+          arguments: ""
+          command-arguments: "licenses bans"
+      - name: Assert default-input run succeeded
+        run: |
+          echo "cargo-deny with default inputs completed successfully"
+          echo "PASS"
