@@ -1,0 +1,24 @@
+[bans]
+multiple-versions = "deny"
+deny = [
+    { name = "openssl" },
+]
+skip = [
+]
+skip-tree = [
+]
+
+[licenses]
+# We want really high confidence when inferring licenses from text
+confidence-threshold = 0.92
+allow = [
+    "LicenseRef-Embark-Proprietary",
+    "Apache-2.0",
+    "Apache-2.0 WITH LLVM-exception",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "MIT",
+    "MPL-2.0",
+    "Zlib",
+]
