@@ -1,0 +1,12 @@
+[bans]
+multiple-versions = "deny"
+deny = [
+    { name = "lazy_static" },
+]
+
+[licenses]
+confidence-threshold = 0.92
+allow = [
+    "Apache-2.0",
+    "MIT",
+]
