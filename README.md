@@ -12,6 +12,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 | v2.0.20 | [`v2.0.20`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.0.20) | [`bb137d7`](https://github.com/EmbarkStudios/cargo-deny-action/commit/bb137d7af7e4fb67e5f82a49c4fce4fad40782fe) | [`HARDENING.md`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/blob/v2.0.20/HARDENING.md) |
 | v2.1.1 | [`v2.1.1`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.1.1) | [`3c63498`](https://github.com/EmbarkStudios/cargo-deny-action/commit/3c6349835b2b7b196a839186cb8b78e02f7b5f25) | [`HARDENING.md`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/blob/v2.1.1/HARDENING.md) |
 | v2.1.2 | [`v2.1.2`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.1.2) | [`70f8153`](https://github.com/EmbarkStudios/cargo-deny-action/commit/70f81531115945ba6eb6b941ec9d39d063438eb9) | [`HARDENING.md`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/blob/v2.1.2/HARDENING.md) |
+| v2.1.3 | [`v2.1.3`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/tree/v2.1.3) | [`17aeb3c`](https://github.com/EmbarkStudios/cargo-deny-action/commit/17aeb3c839e42274e2b8adf721c8c65edfdc74dd) | [`HARDENING.md`](https://github.com/chainguard-actions/EmbarkStudios-cargo-deny-action/blob/v2.1.3/HARDENING.md) |
 
 ## Privacy
 
