@@ -1,0 +1,11 @@
+[bans]
+multiple-versions = "deny"
+deny = [
+    { name = "lazy_static" },
+]
+
+[licenses]
+allow = [
+    "Apache-2.0",
+    "MIT",
+]

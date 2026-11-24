@@ -1,0 +1,12 @@
+[package]
+name = "banned-fixture"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+publish = false
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+lazy_static = "1.0"
